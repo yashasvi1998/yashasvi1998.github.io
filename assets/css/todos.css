@@ -1,0 +1,92 @@
+body{
+	background: #F3904F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#container{
+	width: 360px;
+	background: #f5f5f5;
+	box-shadow: 5px 6px 3px rgba(0,0,0,.5);
+	margin: 100px auto;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+li{
+background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-size: 20px;
+	font-family: 'Satisfy', cursive;
+	height: 40px;
+	line-height: 40px;
+}
+ li:nth-child(2n){
+ background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+.styles{
+	color: grey;
+	text-decoration: line-through;
+	font-family: 'Satisfy', cursive;
+}
+ h1{
+background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ 	font-style: italic;
+ 	margin: 0;
+ 	font-size: 24px;
+ 	padding: 10px 20px;
+ 	font-family: 'Pacifico', cursive;
+ }
+
+ input{
+ 	background: #f7f7f7;
+ 	font-size: 18px;
+ 	width: 100%;
+ 	padding: 13px 13px 13px 20px;
+ 	box-sizing: border-box;
+ 	font-family: 'Satisfy', cursive;
+font-family: 'Kaushan Script', cursive;
+
+
+ }
+
+ input:focus{
+ 	background: #fff;
+ 	border: 2px solid blue;
+ 	outline: none;
+ 	color: purple;
+ }
+ .fa-edit{
+ 	float: right;
+ }
+
+ span{
+ 	background: red;
+ 	height: 40px;
+ 	text-align: center;
+ 	margin-right: 20px;
+ 	display: inline-block;
+ 	width: 0;
+ 	color: white;
+ 	transition: 0.2s linear;
+ 	opacity: 0;
+ }
+
+ li:hover span {
+ 	width: 40px;
+ 	opacity: 1.0;
+ }
+ .fa-trash{
+ 	color:white;
+ 	opacity: 1.0;
+ }
